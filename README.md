@@ -34,10 +34,10 @@ _Important Note:_ Content takes priority over IP Address due to how default valu
 
 ### Quick Start CLI
 ```bash
-cflare auth --email user@email.com --key supersecureapikey
+cflare auth init --email user@email.com --key supersecureapikey
 
 # This will sync the Host VM's Public IP Address to A Record app.mydomain.com = 123.123.123 [VM Public IP]
-cflare sync --domain mydomain.com --subdomain app
+cflare run sync --domain mydomain.com --subdomain app
 ```
 
 ### Quick Start API
