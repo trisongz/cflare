@@ -1,0 +1,11 @@
+
+cflare.egg-info*
+build.sh
+*.vscode
+*cache
+*__pycache__
+*logs
+*dist
+*build
+workspace.code-workspace
+.DS_Store
