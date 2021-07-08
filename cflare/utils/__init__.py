@@ -11,7 +11,7 @@ from .. import cflare_config
 if os.path.exists(cflare_config):
     config = json.load(open(cflare_config, 'r'))
     for key, val in config.items():
-        os.environ[key] = val
+        if val: os.environ[key] = val
 
 def save_config(config):
     with open(cflare_config, 'w') as f:

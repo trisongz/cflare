@@ -9,3 +9,4 @@ build.sh
 *build
 workspace.code-workspace
 .DS_Store
+*config.json
